@@ -1,0 +1,33 @@
+body {
+  margin: 35px 0 0 0;
+  font: 17px/24px Georgia, serif;
+  color: #975383;
+  background: #d3e4ff;
+}
+#albums {
+  margin: 0;
+  padding-left: 50px;
+}
+li {
+  padding: 15px 0 0 10px;
+}
+.remove_button {
+  color: #fff;
+  width: 70px;
+  height: 25px;
+  border: none;
+  border-radius: 6px;
+  background: #db7093;
+  cursor: pointer;
+  margin-left: 20px;
+  font: 14px/21px Georgia, serif;
+  transition: 0.4s;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+}
+.remove_button:hover {
+  background: #fff;
+  color: #db7093;
+  transition: 0.4s;
+}
